@@ -1,0 +1,38 @@
+.Nav-wrapper {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #333333;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2EEE1;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-left: 15px
+}
+
+.menu,
+.sign-in {
+    padding-top: 32px;
+}
+
+
+li {
+    list-style: none;
+}

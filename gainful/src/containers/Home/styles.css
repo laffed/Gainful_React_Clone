@@ -1,0 +1,11 @@
+.section-1 {
+    padding-bottom: 15vw;
+    padding-top: 30vw;
+    margin-bottom: 14vw;
+    background-position: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url('https://dlye1hka1kz5z.cloudfront.net/site/img/hs/home/rotatingNames.gif'), url('https://dlye1hka1kz5z.cloudfront.net/site/img/hs/home/newHeroNoNameWithBleed.jpg');
+
+}
