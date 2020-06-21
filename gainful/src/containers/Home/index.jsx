@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './styles.css';
 import Nav from '../../components/Header/Nav/Nav'
+import { Link } from 'react-router-dom';
 
 function Home(props) {
 
@@ -18,7 +19,9 @@ function Home(props) {
                         <p className="tag-line-description">
                             Protein powder tailored specifically to your body type and fitness goals
                         </p>
-                        <button className="quiz-btn" >TAKE THE QUIZ→</button>
+                        <Link to="/quiz">
+                            <button className="quiz-btn" >TAKE THE QUIZ→</button>
+                        </Link>
                     </div>
                 </div>
             </div>
