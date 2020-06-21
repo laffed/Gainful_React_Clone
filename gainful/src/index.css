@@ -9,6 +9,7 @@ body {
   color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F2EEE8;
 }
 
 code {
